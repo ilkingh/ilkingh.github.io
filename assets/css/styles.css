@@ -231,13 +231,16 @@ main {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 10px;
+  flex-wrap: wrap;
+  gap: 8px 10px;
   margin-bottom: 10px;
 }
 
 .project-head h3 {
   margin: 0;
   font-size: 1.1rem;
+  min-width: 0;
+  overflow-wrap: anywhere;
 }
 
 .lang {
@@ -246,6 +249,7 @@ main {
   padding: 3px 9px;
   border-radius: 999px;
   white-space: nowrap;
+  flex-shrink: 0;
   color: #0f1117;
 }
 
