@@ -6,6 +6,9 @@
   <title>Lorenzo Privitera · ilkingh</title>
   <meta name="description" content="Lorenzo Privitera (ilkingh) — Systems Engineer based in Catania, Italy. Bio, skills, certifications, projects and contacts." />
   <meta name="author" content="Lorenzo Privitera" />
+  <meta name="color-scheme" content="dark" />
+  <meta name="theme-color" content="#0f1117" />
+  <link rel="canonical" href="https://ilkingh.github.io/" />
   <meta property="og:title" content="Lorenzo Privitera · ilkingh" />
   <meta property="og:description" content="Systems Engineer based in Catania, Italy. Bio, skills, certifications, projects and contacts." />
   <meta property="og:type" content="website" />
@@ -19,9 +22,10 @@
   <link rel="stylesheet" href="assets/css/styles.css" />
 </head>
 <body>
+  <a class="skip-link" href="#top">Skip to content</a>
   <header class="site-header">
     <a class="brand" href="#top">ilkingh</a>
-    <nav class="site-nav">
+    <nav class="site-nav" aria-label="Primary">
       <a href="#about">About</a>
       <a href="#skills">Skills</a>
       <a href="#certifications">Certifications</a>
@@ -245,9 +249,36 @@
   </main>
 
   <footer class="site-footer">
-    <p>© <span id="year"></span> Lorenzo Privitera · Built with GitHub Pages</p>
+    <p>© <span id="year">2026</span> Lorenzo Privitera · Built with GitHub Pages</p>
   </footer>
 
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Salvatore Lorenzo Privitera",
+    "alternateName": "Lorenzo Privitera",
+    "url": "https://ilkingh.github.io/",
+    "image": "https://avatars.githubusercontent.com/u/83762913?v=4",
+    "jobTitle": "Systems Engineer",
+    "worksFor": { "@type": "Organization", "name": "Ricca IT s.r.l." },
+    "alumniOf": { "@type": "CollegeOrUniversity", "name": "University of Catania" },
+    "address": { "@type": "PostalAddress", "addressLocality": "Catania", "addressCountry": "IT" },
+    "email": "mailto:sprivitera65@gmail.com",
+    "sameAs": [
+      "https://github.com/ilkingh",
+      "https://www.linkedin.com/in/salvatore-lorenzo-privitera-621410240/"
+    ],
+    "knowsAbout": [
+      "Virtualization",
+      "Storage",
+      "Linux",
+      "DataCore",
+      "Oracle Cloud Infrastructure",
+      "Veeam"
+    ]
+  }
+  </script>
   <script>
     document.getElementById("year").textContent = new Date().getFullYear();
   </script>
