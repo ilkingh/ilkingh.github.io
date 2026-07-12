@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lorenzo Privitera · ilkingh</title>
+  <meta name="description" content="Lorenzo Privitera (ilkingh) — Systems Engineer based in Catania, Italy. Bio, skills, projects and contacts." />
+  <meta property="og:title" content="Lorenzo Privitera · ilkingh" />
+  <meta property="og:description" content="Systems Engineer based in Catania, Italy. Bio, skills, projects and contacts." />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://avatars.githubusercontent.com" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top">ilkingh</a>
+    <nav class="site-nav">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero">
+      <img
+        class="avatar"
+        src="https://avatars.githubusercontent.com/u/83762913?v=4"
+        alt="Lorenzo Privitera"
+        width="128"
+        height="128"
+      />
+      <h1>Lorenzo Privitera</h1>
+      <p class="handle">@ilkingh</p>
+      <p class="role">Systems Engineer @ Ricca IT srl</p>
+      <p class="location">Catania, Italy · 🇮🇹</p>
+      <p class="tagline">
+        Building reliable systems and infrastructure, one service at a time.
+      </p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#projects">View Projects</a>
+        <a class="btn btn-ghost" href="#contact">Get in touch</a>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <h2 class="section-title">About</h2>
+      <p class="lead">
+        I'm a Systems Engineer based in Catania, working at Ricca IT srl. I care
+        about stable, observable infrastructure and clean, pragmatic automation.
+        I enjoy turning messy operational problems into simple, repeatable
+        solutions.
+      </p>
+      <p class="lead">
+        When I'm not keeping systems running, I tinker with side projects around
+        data, weather and the web.
+      </p>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+      <h2 class="section-title">Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h3>Systems &amp; Infrastructure</h3>
+          <ul>
+            <li>Linux</li>
+            <li>Networking</li>
+            <li>Docker &amp; Containers</li>
+            <li>CI/CD</li>
+            <li>Cloud (AWS / Azure)</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <h3>Scripting &amp; Data</h3>
+          <ul>
+            <li>Python</li>
+            <li>Bash</li>
+            <li>R</li>
+            <li>Jupyter / Notebooks</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <h3>Web &amp; Tooling</h3>
+          <ul>
+            <li>HTML &amp; CSS</li>
+            <li>Git &amp; GitHub</li>
+            <li>REST APIs</li>
+            <li>Monitoring</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <h2 class="section-title">Projects</h2>
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-head">
+            <h3>ProgrammingAssignment2</h3>
+            <span class="lang lang-r">R</span>
+          </div>
+          <p>
+            Repository for the Programming Assignment 2 of the R Programming
+            course on Coursera.
+          </p>
+          <a class="project-link" href="https://github.com/ilkingh/ProgrammingAssignment2" target="_blank" rel="noopener">View on GitHub →</a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-head">
+            <h3>tap2022</h3>
+            <span class="lang lang-jupyter">Jupyter Notebook</span>
+          </div>
+          <p>
+            Coursework from TAP 2022 (Tecnologie e Applicazioni del Web),
+            University of Catania.
+          </p>
+          <a class="project-link" href="https://github.com/ilkingh/tap2022" target="_blank" rel="noopener">View on GitHub →</a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-head">
+            <h3>WebMeteo</h3>
+            <span class="lang lang-python">Python</span>
+          </div>
+          <p>
+            A weather web application built for the TAP 2022 project at the
+            University of Catania.
+          </p>
+          <a class="project-link" href="https://github.com/ilkingh/WebMeteo" target="_blank" rel="noopener">View on GitHub →</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <h2 class="section-title">Get in touch</h2>
+      <p class="lead">Feel free to reach out or check out my work.</p>
+      <div class="contact-links">
+        <a class="contact-link" href="https://github.com/ilkingh" target="_blank" rel="noopener">GitHub</a>
+        <!-- TODO: replace with your real LinkedIn URL -->
+        <a class="contact-link" href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
+        <!-- TODO: replace with your real email address -->
+        <a class="contact-link" href="mailto:you@example.com">Email</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Lorenzo Privitera · Built with GitHub Pages</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
