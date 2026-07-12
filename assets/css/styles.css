@@ -242,6 +242,47 @@ main {
   white-space: nowrap;
 }
 
+/* Timeline (Experience / Education) */
+.timeline {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 16px;
+}
+
+.timeline-item {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--accent);
+  border-radius: var(--radius);
+  padding: 16px 20px;
+}
+
+.timeline-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.timeline-role {
+  font-weight: 600;
+  font-size: 1.02rem;
+}
+
+.timeline-meta {
+  color: var(--muted);
+  font-size: 0.88rem;
+  white-space: nowrap;
+}
+
+.timeline-desc {
+  color: var(--muted);
+  margin: 10px 0 0;
+}
+
 /* Projects */
 .projects-grid {
   display: grid;
