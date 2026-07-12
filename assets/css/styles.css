@@ -231,8 +231,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 8px 10px;
+  gap: 10px;
   margin-bottom: 10px;
 }
 
@@ -240,6 +239,7 @@ main {
   margin: 0;
   font-size: 1.1rem;
   min-width: 0;
+  flex: 1 1 auto;
   overflow-wrap: anywhere;
 }
 
@@ -249,7 +249,7 @@ main {
   padding: 3px 9px;
   border-radius: 999px;
   white-space: nowrap;
-  flex-shrink: 0;
+  flex: 0 0 auto;
   color: #0f1117;
 }
 
