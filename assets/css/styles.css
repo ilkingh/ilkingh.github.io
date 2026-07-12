@@ -341,12 +341,24 @@ main {
 }
 
 @media (max-width: 600px) {
+  .site-header {
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
+  }
+  .brand {
+    width: 100%;
+    text-align: center;
+  }
   .hero h1 {
     font-size: 2rem;
   }
   .site-nav a {
-    margin-left: 12px;
+    margin-left: 14px;
     font-size: 0.85rem;
+  }
+  .site-nav a:first-child {
+    margin-left: 0;
   }
   .section {
     padding: 48px 0;
